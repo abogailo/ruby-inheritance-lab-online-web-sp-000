@@ -11,7 +11,4 @@ class User
     @knowledge << string
   end
 
-  def knowledge
-    @knowledge
-  end
 end
