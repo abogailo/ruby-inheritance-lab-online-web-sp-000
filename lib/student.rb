@@ -10,4 +10,8 @@ class Student < User
     knowledge << string
   end
 
+  def knowledge
+    self.knowledge
+  end
+
 end
